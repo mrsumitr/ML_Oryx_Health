@@ -38,12 +38,13 @@ The dataset provides:
 ---
 
 ## Project Structure
+
 ML_Oryx_Health/
-├── Design.md # Assumptions, evaluation, limitations
-├── inference.py # Inference on OCR tokens (no OCR step)
+├── Design.md          # Assumptions, evaluation, limitations
+├── inference.py       # Inference on OCR tokens (no OCR step)
 ├── README.md
-├── requirements.txt # Project dependencies
-└── train.py # Training script (LayoutLMv3)
+├── requirements.txt   # Project dependencies
+└── train.py           # Training script (LayoutLMv3)
 
 
 ---
@@ -58,16 +59,22 @@ conda activate oryx-health
 ## Install dependencies
 pip install -r requirements.txt
 
+---
+
 ## Training
 
 Run the training script:
 
 python train.py
 
+--- 
+
 ## Inference
 
 After training, run:
 python inference.py
+
+---
 
 ## Evaluation
 
