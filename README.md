@@ -35,7 +35,6 @@ The dataset provides:
 3. Train a **LayoutLMv3** token classification model  
 4. Use model predictions to enable structured JSON generation through post-processing
 
----
 
 ## Project Structure
 
