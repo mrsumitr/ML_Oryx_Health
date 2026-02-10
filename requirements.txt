@@ -1,0 +1,10 @@
+torch
+torchvision
+transformers
+datasets
+seqeval
+pillow
+numpy
+pandas
+scikit-learn
+accelerate
