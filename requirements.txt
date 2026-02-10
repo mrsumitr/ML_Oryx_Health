@@ -2,9 +2,10 @@ torch
 torchvision
 transformers
 datasets
-seqeval
+sentencepiece
+protobuf
+accelerate
 pillow
 numpy
-pandas
 scikit-learn
-accelerate
+zss
