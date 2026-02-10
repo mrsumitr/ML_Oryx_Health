@@ -1,0 +1,16 @@
+# Ignore the large model folder
+my_final_model/
+checkpoint-*/
+cord_v2_model_final
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Virtual Environment (if it's in this folder)
+venv/
+env/
+.env
